@@ -1,12 +1,19 @@
 <div class="container pt-5">
 
   <app-card
-    *ngFor="let coin of data"
-    [title]="coin.name"
-    [imageUrl]="coin.image"
-    [currentPrice]="coin.current_price"
-    [priceChange]="coin.price_change_24h"
+    *ngFor="let movie of data"
+    [imageUrl]="movie.image"
+    [title]="movie.title"
+    [genre]="movie.genre"
+    [rating]="movie.rating"
+    [year]="movie.year" 
   ></app-card>
 </div>
 
 
+
+    <!-- *ngFor="let coin of data"
+    [title]="coin.name"
+    [imageUrl]="coin.image"
+    [currentPrice]="coin.current_price"
+    [priceChange]="coin.price_change_24h" -->

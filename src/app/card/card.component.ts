@@ -11,6 +11,6 @@ export class CardComponent {
   @Input() title = '';
   @Input() rating =''; 
   @Input() imageUrl = '';
-  @Input() currentPrice = 0;
+  @Input() year = 0;
   @Input() priceChange = 0;
 }
